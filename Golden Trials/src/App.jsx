@@ -6,11 +6,13 @@ import Workshops from './components/Workshops/Workshops'
 import Partners from './components/Partners/Partners'
 import FAQ from './components/FAQ/FAQ'
 import ContactUs from './components/ContactUs/ContactUs'
+import Header from "./components/Header/Header";
 import "./App.css";
 
 function App() {
   return (
     <>
+      <Header />
       <Home />
       <About />
       <Agenda />
