@@ -78,7 +78,7 @@ const Home = () => {
           <div className="flex justify-center">
             <button
               style={{ fontFamily: "'Metal Mania', cursive" }}
-              className="mt-4 bg-emerald-950 rounded text-white px-8 py-3 text-2xl md:text-3xl">
+              className="mt-4 bg-emerald-950 rounded text-white px-8 py-3 text-2xl md:text-3xl hover:bg-white hover:text-emerald-950 transition-colors">
               Enter the realm
             </button>
           </div>
