@@ -1,9 +1,9 @@
 import React from "react";
 import "./About.css";
-import Logo from "../../assets/Decoration/watermarked-941cfa63-8d55-42e6-abfd-3d611b7b984d_LE_upscale_strong_light_ai_20_remove_background_general_clip_to_object_on 5.png";
+import Logo from "../../assets/Decoration/logo.png";
 import circle from "../../assets/Decoration/circle about.png";
-import SwordIcon from "../../assets/Decoration/Screenshot 2025-11-22 182757_LE_upscale_digital_art_x4_light_ai_30_remove_background_general_clip_to_object_on_LE_upscale_ultra_size_of_changes_10_intensity_10_light_ai_30_remove_background_general_clip_to_object_off_ 4.png";
-import Circledeco from "../../assets/Decoration/Screenshot 2025-11-22 173803_LE_upscale_strong_x2_light_ai_30_remove_background_general_clip_to_object_on (1)_LE_upscale_digital_art_light_ai_30_remove_background_general_clip_to_object_on 1.svg";
+import SwordIcon from "../../assets/Decoration/swordicon.png";
+import Circledeco from "../../assets/Decoration/circledeco.svg";
 const About = () => {
   return (
     

@@ -7,7 +7,7 @@ import Partners from "./components/Partners/Partners";
 import FAQ from "./components/FAQ/FAQ";
 import ContactUs from "./components/ContactUs/ContactUs";
 import Header from "./components/Header/Header";
-import Circledeco from "./assets/Decoration/Screenshot 2025-11-22 173803_LE_upscale_strong_x2_light_ai_30_remove_background_general_clip_to_object_on (1)_LE_upscale_digital_art_light_ai_30_remove_background_general_clip_to_object_on 1.svg";
+import Circledeco from "./assets/Decoration/circledeco.svg";
 import "./App.css";
 
 function App() {

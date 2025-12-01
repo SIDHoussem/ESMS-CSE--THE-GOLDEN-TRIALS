@@ -1,10 +1,10 @@
 import React from "react";
 import "./Home.css";
-import Logo from "../../assets/Decoration/watermarked-941cfa63-8d55-42e6-abfd-3d611b7b984d_LE_upscale_strong_light_ai_20_remove_background_general_clip_to_object_on 5.png";
-import SwordIcon from "../../assets/Decoration/Screenshot 2025-11-22 182757_LE_upscale_digital_art_x4_light_ai_30_remove_background_general_clip_to_object_on_LE_upscale_ultra_size_of_changes_10_intensity_10_light_ai_30_remove_background_general_clip_to_object_off_ 4.png";
+import Logo from "../../assets/Decoration/logo.png";
+import SwordIcon from "../../assets/Decoration/swordicon.png";
 import HourglassIcon from "../../assets/Decoration/eos-icons_hourglass.png";
 import LocationIcon from "../../assets/Decoration/tdesign_location-filled.png";
-import gtlogo from "../../assets/Decoration/Screenshot 2025-11-24 191725_LE_upscale_balanced_x4_remove_background_general_clip_to_object_off 1.png";
+import gtlogo from "../../assets/Decoration/gtlogo.png";
 
 const Home = () => {
   return (

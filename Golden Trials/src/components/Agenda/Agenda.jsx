@@ -1,8 +1,8 @@
 import React from "react";
 import "./Agenda.css";
 import circle from "../../assets/Decoration/circle about.png";
-import Logo from "../../assets/Decoration/watermarked-941cfa63-8d55-42e6-abfd-3d611b7b984d_LE_upscale_strong_light_ai_20_remove_background_general_clip_to_object_on 5.png";
-import Circledeco from "../../assets/Decoration/Screenshot 2025-11-22 173803_LE_upscale_strong_x2_light_ai_30_remove_background_general_clip_to_object_on (1)_LE_upscale_digital_art_light_ai_30_remove_background_general_clip_to_object_on 1.svg";
+import Logo from "../../assets/Decoration/logo.png";
+import Circledeco from "../../assets/Decoration/circledeco.svg";
 
 const Agenda = () => {
   const day1Events = [
