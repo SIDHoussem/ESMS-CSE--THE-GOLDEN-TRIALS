@@ -3,6 +3,10 @@ import Logo from "../../assets/Decoration/logo.png";
 import circle from "../../assets/Decoration/circle about.png";
 import Circledeco from "../../assets/Decoration/circledeco.svg";
  import knife from "../../assets/Decoration/KNIFE.svg";
+import Sonatrach from "../../assets/Decoration/sonatrachh.svg";
+import Yassir from "../../assets/Decoration/yassir.svg";
+import Education from "../../assets/Decoration/educationembassy.svg";
+
 const Partners = () => {
   return (
     <section className="relative flex flex-col items-center justify-center py-16 px-6 overflow-visible">
@@ -66,31 +70,29 @@ const Partners = () => {
 </div>
 
 {/* Brand logos grid */}
-<div className="flex flex-wrap justify-center gap-50 sm:gap-10 lg:gap-100 mb-8 text-gray-200 pt-15">
-  {/* Brand 1 */}
-  <div className="bg-[#164646B2]/70 p-4 sm:p-9 inline-block text-center">
-    <p className="text-xl sm:text-3xl lg:text-4xl">
-      Photo of the<br />brand.
-    </p>
+<div className="flex flex-nowrap sm:flex-wrap justify-center gap-6 sm:gap-10 mb-8 text-gray-200 pt-15">
+
+  {/* Education */}
+  <div className="p-2 sm:p-9 inline-block text-center">
+    <img src={Education} alt="Education" className="w-20 sm:w-32 lg:w-48" />
   </div>
 
-  {/* Brand 2 */}
-  <div className="bg-[#164646B2]/70 p-4 sm:p-9 inline-block text-center text-gray-200">
-    <p className="text-xl sm:text-3xl lg:text-4xl">
-      Photo of the<br />brand.
-    </p>
+  {/* Yassir (décalé vers le bas) */}
+  <div className="p-2 sm:p-9 inline-block text-center translate-y-6 sm:translate-y-12">
+    <img src={Yassir} alt="Yassir" className="w-20 sm:w-32 lg:w-48" />
   </div>
+
+  {/* Sonatrach */}
+  <div className="p-2 sm:p-9 inline-block text-center">
+    <img src={Sonatrach} alt="Sonatrach" className="w-20 sm:w-32 lg:w-48" />
+  </div>
+
 </div>
 
-{/* Brand 3 - centered */}
-<div className="text-center">
-  <div className="bg-[#164646B2]/70 p-4 sm:p-9 inline-block text-center text-gray-200">
-    <p className="text-xl sm:text-3xl lg:text-4xl">
-      Photo of the<br />brand.
-    </p>
-  </div>
-</div>
 
+
+
+{/* Naftal centered */}
 
 
       </div>
