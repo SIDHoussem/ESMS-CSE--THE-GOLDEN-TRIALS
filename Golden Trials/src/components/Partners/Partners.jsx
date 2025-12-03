@@ -3,7 +3,9 @@ import Logo from "../../assets/Decoration/logo.png";
 import circle from "../../assets/Decoration/circle about.png";
 import Circledeco from "../../assets/Decoration/circledeco.svg";
  import knife from "../../assets/Decoration/KNIFE.svg";
- import Sonatrach from "../../assets/Decoration/sonatrachh.svg";
+
+import Sonatrach from "../../assets/Decoration/sonatrachh.svg";
+
 import Yassir from "../../assets/Decoration/yassirwhite.png";
 import Ooredoo from "../../assets/Decoration/oreedo.png";
 
