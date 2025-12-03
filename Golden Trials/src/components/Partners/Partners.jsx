@@ -5,7 +5,7 @@ import Circledeco from "../../assets/Decoration/circledeco.svg";
  import knife from "../../assets/Decoration/KNIFE.svg";
 import Sonatrach from "../../assets/Decoration/sonatrachh.svg";
 import Yassir from "../../assets/Decoration/yassir.svg";
-import Education from "../../assets/Decoration/educationembassy.svg";
+import Ooredoo from "../../assets/Decoration/oreedo.png";
 
 const Partners = () => {
   return (
@@ -74,7 +74,7 @@ const Partners = () => {
 
   {/* Education */}
   <div className="p-2 sm:p-9 inline-block text-center">
-    <img src={Education} alt="Education" className="w-20 sm:w-32 lg:w-48" />
+    <img src={Ooredoo} alt="Ooredoo" className="w-20 sm:w-32 lg:w-48" />
   </div>
 
   {/* Yassir (décalé vers le bas) */}
