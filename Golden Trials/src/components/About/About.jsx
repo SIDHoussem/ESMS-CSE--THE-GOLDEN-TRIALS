@@ -4,10 +4,10 @@ import Logo from "../../assets/Decoration/logo.png";
 import circle from "../../assets/Decoration/circle about.png";
 import SwordIcon from "../../assets/Decoration/swordicon.png";
 import Circledeco from "../../assets/Decoration/circledeco.svg";
-const About = () => {
+const About = ({ id }) => {
   return (
     
-    <section className="flex flex-col items-center justify-center py-13 px-4">
+    <section id={id} className="flex flex-col items-center justify-center py-13 px-4">
      
       
       {/* Logo */}

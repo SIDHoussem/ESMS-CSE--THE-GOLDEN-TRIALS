@@ -4,9 +4,9 @@ import circle from "../../assets/Decoration/circle about.png";
 import Separator from "../../assets/Decoration/separator.svg"; 
 import Circledeco from "../../assets/Decoration/circledeco.svg";
 
-const Workshops = () => {
+const Workshops = ({ id }) => {
   return (
-    <section className="relative flex flex-col items-center justify-center py-0 px-6 overflow-visible">
+    <section id={id} className="relative flex flex-col items-center justify-center py-0 px-6 overflow-visible">
 {/* Title circle */}
       <div className="relative flex items-center justify-center mb-12 -mt-8">
         <img src={circle} alt="decoration" className="w-32 md:w-40 lg:w-48" />
@@ -74,7 +74,7 @@ const Workshops = () => {
 </div>
 
       {/* Bottom Logo */}
-      <img src={Logo} alt="Logo" className="w-120 md:w-64 lg:w-130 mt-12" />
+      <img src={Logo} alt="Logo" className="w-48 md:w-64 lg:w-130 mt-12" />
     </section>
   );
 };

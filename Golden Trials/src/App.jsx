@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="overflow-x-hidden">
       <Header />
-      <Home />
+      <Home id="home" />
 
       {/* Decorative Circle - scrolls with page */}
       <div className="relative h-0">
@@ -25,12 +25,12 @@ function App() {
         />
       </div>
 
-      <About />
-      <Agenda />
-      <Workshops />
-      <Partners />
-      <FAQ />
-      <ContactUs />
+      <About id="about" />
+      <Agenda id="agenda" />
+      <Workshops id="workshops" />
+      <Partners id="partners" />
+      <FAQ id="faq" />
+      <ContactUs id="contact" />
     </div>
   );
 }

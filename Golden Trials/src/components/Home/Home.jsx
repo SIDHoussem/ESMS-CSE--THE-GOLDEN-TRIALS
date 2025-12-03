@@ -6,9 +6,9 @@ import HourglassIcon from "../../assets/Decoration/eos-icons_hourglass.png";
 import LocationIcon from "../../assets/Decoration/tdesign_location-filled.png";
 import gtlogo from "../../assets/Decoration/gtlogo.png";
 
-const Home = () => {
+const Home = ({ id }) => {
   return (
-    <section className="min-h-screen px-6 md:px-12 lg:px-20 pt-10 ">
+    <section id={id} className="min-h-screen px-6 md:px-12 lg:px-20 pt-10 ">
       {/* Logo */}
       <div className="flex justify-center mb-8">
         <img

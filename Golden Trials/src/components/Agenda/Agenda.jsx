@@ -4,7 +4,7 @@ import circle from "../../assets/Decoration/circle about.png";
 import Logo from "../../assets/Decoration/logo.png";
 import Circledeco from "../../assets/Decoration/circledeco.svg";
 
-const Agenda = () => {
+const Agenda = ({ id }) => {
   const day1Events = [
     { time: "09h00 - 09h30", title: "Check-in" },
     {
@@ -40,7 +40,7 @@ const Agenda = () => {
   ];
 
   return (
-    <section className="flex flex-col items-center  pb-16 px-4 overflow-hidden">
+    <section id={id} className="flex flex-col items-center  pb-16 px-4 overflow-hidden">
       {/* Title with Circle */}
       <div className="relative flex items-center justify-center mb-12">
         <img src={circle} alt="decoration" className="w-32 md:w-40 lg:w-48" />

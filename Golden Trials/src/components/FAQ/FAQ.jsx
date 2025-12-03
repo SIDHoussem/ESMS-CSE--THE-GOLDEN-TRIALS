@@ -6,7 +6,7 @@ import element from "../../assets/Decoration/element.svg";
 
 import { useState } from "react"
 
- function FAQ() {
+ function FAQ({ id }) {
   const [openIndex, setOpenIndex] = useState(null)
 
   const faqs = [
@@ -34,9 +34,9 @@ import { useState } from "react"
   ]
 
   return (
-    <section className="my-16 px-4 md:px-8 bg-background">
+    <section id={id} className="my-16 px-4 md:px-8 bg-background">
      <div className="flex justify-center my-[60px]"><img src={Logo} alt="Logo"  className="w-48 md:w-64 lg:w-130" /></div>
-     <div className="relative"><img  src={Circledeco} alt="" className="absolute right-[-200px] bottom-[-180px] w-[400px] md:w-[500px] lg:w-[600px] opacity-10 "/></div>
+    
       <div className="max-w-4xl mx-auto">
         <div className="relative">
           

@@ -3,9 +3,9 @@ import Logo from "../../assets/Decoration/logo.png";
 import circle from "../../assets/Decoration/circle about.png";
 import Circledeco from "../../assets/Decoration/circledeco.svg";
  import knife from "../../assets/Decoration/KNIFE.svg";
-const Partners = () => {
+const Partners = ({ id }) => {
   return (
-    <section className="relative flex flex-col items-center justify-center py-16 px-6 overflow-visible">
+    <section id={id} className="relative flex flex-col items-center justify-center py-16 px-6 overflow-visible">
            {/* Title circle */}
       <div className="relative flex items-center justify-center mb-12 -translate-y-[20%]">
         <img src={circle} alt="decoration" className="w-32 md:w-40 lg:w-48" />
@@ -96,7 +96,7 @@ const Partners = () => {
       </div>
 
       {/* Bottom Logo */}
-      <img src={Logo} alt="Logo" className="w-120 md:w-64 lg:w-130 mt-12 -translate-y-[90%]" />
+   
     </section>
   );
 };
