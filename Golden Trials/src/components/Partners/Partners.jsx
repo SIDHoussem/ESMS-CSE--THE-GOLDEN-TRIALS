@@ -11,7 +11,7 @@ import Ooredoo from "../../assets/Decoration/oreedo.png";
 
 const Partners = () => {
   return (
-    <section id={id} className="relative flex flex-col items-center justify-center py-16 px-6 overflow-visible">
+    <section className="relative flex flex-col items-center justify-center py-16 px-6 overflow-visible">
            {/* Title circle */}
       <div className="relative flex items-center justify-center mb-12 -translate-y-[20%]">
         <img src={circle} alt="decoration" className="w-32 md:w-40 lg:w-48" />
