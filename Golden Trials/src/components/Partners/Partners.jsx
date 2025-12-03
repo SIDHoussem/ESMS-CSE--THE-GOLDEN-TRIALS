@@ -4,7 +4,7 @@ import circle from "../../assets/Decoration/circle about.png";
 import Circledeco from "../../assets/Decoration/circledeco.svg";
  import knife from "../../assets/Decoration/KNIFE.svg";
 import Sonatrach from "../../assets/Decoration/sonatrachh.svg";
-import Yassir from "../../assets/Decoration/yassir.svg";
+import Yassir from "../../assets/Decoration/yassirwhite.png";
 import Ooredoo from "../../assets/Decoration/oreedo.png";
 
 const Partners = () => {
@@ -72,14 +72,14 @@ const Partners = () => {
 {/* Brand logos grid */}
 <div className="flex flex-nowrap sm:flex-wrap justify-center gap-6 sm:gap-10 mb-8 text-gray-200 pt-15">
 
-  {/* Education */}
+  {/* ooredoo */}
   <div className="p-2 sm:p-9 inline-block text-center">
     <img src={Ooredoo} alt="Ooredoo" className="w-20 sm:w-32 lg:w-48" />
   </div>
 
   {/* Yassir (décalé vers le bas) */}
-  <div className="p-2 sm:p-9 inline-block text-center translate-y-6 sm:translate-y-12">
-    <img src={Yassir} alt="Yassir" className="w-20 sm:w-32 lg:w-48" />
+  <div className="p-2 sm:p-9 inline-block text-center translate-y-0 sm:translate-y-0">
+    <img src={Yassir} alt="Yassir" className="w-20 sm:w-32  lg:w-60" />
   </div>
 
   {/* Sonatrach */}
