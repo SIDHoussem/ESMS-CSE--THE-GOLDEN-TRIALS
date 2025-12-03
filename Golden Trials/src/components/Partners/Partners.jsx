@@ -3,7 +3,11 @@ import Logo from "../../assets/Decoration/logo.png";
 import circle from "../../assets/Decoration/circle about.png";
 import Circledeco from "../../assets/Decoration/circledeco.svg";
  import knife from "../../assets/Decoration/KNIFE.svg";
-const Partners = ({ id }) => {
+ import Sonatrach from "../../assets/Decoration/sonatrachh.svg";
+import Yassir from "../../assets/Decoration/yassirwhite.png";
+import Ooredoo from "../../assets/Decoration/oreedo.png";
+
+const Partners = () => {
   return (
     <section id={id} className="relative flex flex-col items-center justify-center py-16 px-6 overflow-visible">
            {/* Title circle */}
@@ -66,31 +70,29 @@ const Partners = ({ id }) => {
 </div>
 
 {/* Brand logos grid */}
-<div className="flex flex-wrap justify-center gap-50 sm:gap-10 lg:gap-100 mb-8 text-gray-200 pt-15">
-  {/* Brand 1 */}
-  <div className="bg-[#164646B2]/70 p-4 sm:p-9 inline-block text-center">
-    <p className="text-xl sm:text-3xl lg:text-4xl">
-      Photo of the<br />brand.
-    </p>
+<div className="flex flex-nowrap sm:flex-wrap justify-center gap-6 sm:gap-10 mb-8 text-gray-200 pt-15">
+
+  {/* ooredoo */}
+  <div className="p-2 sm:p-9 inline-block text-center">
+    <img src={Ooredoo} alt="Ooredoo" className="w-20 sm:w-32 lg:w-48" />
   </div>
 
-  {/* Brand 2 */}
-  <div className="bg-[#164646B2]/70 p-4 sm:p-9 inline-block text-center text-gray-200">
-    <p className="text-xl sm:text-3xl lg:text-4xl">
-      Photo of the<br />brand.
-    </p>
+  {/* Yassir (décalé vers le bas) */}
+  <div className="p-2 sm:p-9 inline-block text-center translate-y-0 sm:translate-y-0">
+    <img src={Yassir} alt="Yassir" className="w-20 sm:w-32  lg:w-60" />
   </div>
+
+  {/* Sonatrach */}
+  <div className="p-2 sm:p-9 inline-block text-center">
+    <img src={Sonatrach} alt="Sonatrach" className="w-20 sm:w-32 lg:w-48" />
+  </div>
+
 </div>
 
-{/* Brand 3 - centered */}
-<div className="text-center">
-  <div className="bg-[#164646B2]/70 p-4 sm:p-9 inline-block text-center text-gray-200">
-    <p className="text-xl sm:text-3xl lg:text-4xl">
-      Photo of the<br />brand.
-    </p>
-  </div>
-</div>
 
+
+
+{/* Naftal centered */}
 
 
       </div>

@@ -126,14 +126,15 @@ const Header = () => {
           className="text-white font-medium hover:text-yellow-500 transition-colors">
           Contact Us
         </a>
-      </nav>
-
-      {/* Desktop Register Button */}
-      <button
-        className="hidden md:block bg-amber-50 text-yellow-600 px-8 py-3 text-2xl rounded hover:bg-yellow-500 hover:text-white transition-colors"
-        style={{ fontFamily: "'Metal Mania', cursive" }}>
-        Register
-      </button>
+        </nav>
+<a
+  href="https://docs.google.com/forms/d/e/1FAIpQLScZKxwzRxazLFuDPtWC_4wuECQrGQuoBrBRRtNtrZ9Gg0Me6Q/viewform?usp=header"
+  className="bg-amber-50 text-yellow-600 px-8 py-3 text-2xl rounded hover:bg-yellow-500 hover:text-white transition-colors"
+  style={{ fontFamily: "'Metal Mania', cursive" }}
+>
+  Register
+</a>
+    
     </header>
   );
 };
