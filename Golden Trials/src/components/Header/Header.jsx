@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <header className="relative flex items-center justify-between px-6 py-4 bg-transparent">
-      <img src={headerImage} alt="LOGO" className="w-40 md:w-24 lg:w-52" />
+      <img onClick={() => window.location.reload()} src={headerImage} alt="LOGO" className="w-40 md:w-24 lg:w-52 cursor-pointer" />
 
       {/* Mobile Menu Button (3 dots/hamburger) */}
       <button
